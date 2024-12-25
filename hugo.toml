@@ -1,0 +1,86 @@
+baseURL = "https://tomfran.github.io/typo-wiki/"
+languageCode = "en-us"
+
+title = "Typo's Wiki"
+theme = "typo"
+
+
+[taxonomies]
+tag = 'tags'
+
+
+[params]
+# Meta description
+description = "Wiki for https://github.com/tomfran/typo/"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hi!'
+homeIntroContent = """
+Typo is a Hugo theme backed by simplicity. 
+The goal is to have a website centered around content and nothing more.
+
+Welcome to the wiki. Here you'll learn how to [get started](/typo-wiki/setup) 
+with this theme and what [features](/typo-wiki/features) are available. 
+
+Do you need help, or have ideas for future developments? Feel free to 
+ask in the [discussion](https://github.com/tomfran/typo/discussions) section.
+
+> I want to thank every contributor to the theme! To anyone reading, 
+feel free to become one by opening a Pull Request 😊
+"""
+
+
+faviconPath = 'https://tomfran.github.io/typo-wiki'
+
+# Collection to display on home
+# homeCollectionTitle = 'Features'
+# homeCollection = 'features'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "github"
+url = "https://github.com/tomfran/typo"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/typo-wiki"
+
+[[params.menu]]
+name = "setup"
+url = "/typo-wiki/setup"
+
+[[params.menu]]
+name = "features"
+url = "/typo-wiki/features"
+
+[[params.menu]]
+name = "contributors"
+url = "/typo-wiki/contributors"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'bw'
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+
+# Giscus comments
+[params.giscus]
+enable = false

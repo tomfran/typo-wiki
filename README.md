@@ -1,2 +1,3 @@
-# typo-wiki-source
-Source Repo for Typo's wiki website
+# Typo Wiki
+
+Website to showcase [Typo Hugo](https://github.com/tomfran/typo/) theme.
