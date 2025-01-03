@@ -1,10 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
+    "config:recommended",
+    ":dependencyDashboard"
   ],
   "git-submodules": {
     "enabled": true
   },
-  "automerge": true
+  "automerge": true,
+  "ignoreTests": true
 }
