@@ -12,10 +12,6 @@ run:
 	@echo "Starting Hugo server..."
 	hugo server --disableFastRender -D
 
-fetch-contributors:
-	@echo "Generating contributors list..."
-	python3 scripts/contributors.py
-
-build: copy-wiki-source fetch-contributors
+build: copy-wiki-source
 	@echo "Building the Hugo site..."
 	hugo --minify --buildFuture
