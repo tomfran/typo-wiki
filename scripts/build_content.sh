@@ -15,7 +15,7 @@ autonumber: false
 math: false
 showTags: false
 hidePagination: true
-hideBackToTop: false
+hideBackToTop: true
 ---
 
 This is a non-exhaustive list of Typo users. If you use Typo and would like to be added to this 
