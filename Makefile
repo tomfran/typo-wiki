@@ -3,6 +3,7 @@
 copy-wiki-source:
 	@echo "Copying wiki content from themes/typo/wiki to content/"
 	cp -r themes/typo/wiki content
+	./scripts/build_content.sh
 
 clean: 
 	@echo "Cleaning up build artifacts..."

@@ -74,6 +74,10 @@ url = "/typo-wiki/features"
 name = "contributors"
 url = "/typo-wiki/contributors"
 
+[[params.menu]]
+name = "users"
+url = "/typo-wiki/users"
+
 # Syntax highligth on code blocks
 [markup]
 [markup.highlight]
