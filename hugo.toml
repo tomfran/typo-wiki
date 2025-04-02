@@ -50,7 +50,7 @@ listDateFormat = '2 Jan 2006'
 [params.breadcrumbs]
 enabled = true
 showCurrentPage = true
-home = "Home"
+home = "~"
 
 # Social icons
 [[params.social]]
@@ -58,10 +58,6 @@ name = "github"
 url = "https://github.com/tomfran/typo"
 
 # Main menu pages
-[[params.menu]]
-name = "home"
-url = "/typo-wiki"
-
 [[params.menu]]
 name = "setup"
 url = "/typo-wiki/setup"
