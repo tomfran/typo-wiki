@@ -9,7 +9,7 @@ clean:
 	@echo "Cleaning up build artifacts..."
 	@if [ -d public ]; then rm -r public; fi
 
-run: 
+run: clean copy-wiki-source 
 	@echo "Starting Hugo server..."
 	hugo server --disableFastRender -D
 
