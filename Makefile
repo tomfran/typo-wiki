@@ -1,6 +1,9 @@
 .PHONY: copy-wiki-source clean run fetch-contributors build
 
-copy-wiki-source:
+clean-wiki-source:
+	@if [ -d content ]; then rm -r content; fi
+
+copy-wiki-source: clean-wiki-source
 	@echo "Copying wiki content from themes/typo/wiki to content/"
 	cp -r themes/typo/wiki content
 	./scripts/build_content.sh
