@@ -46,6 +46,9 @@ paginationSize = 100
 listSummaries = true
 listDateFormat = '2 Jan 2006'
 
+mermaidTheme = "neutral"
+mermaidDarkTheme = "dark"
+
 # Breadcrumbs
 [params.breadcrumbs]
 enabled = true
