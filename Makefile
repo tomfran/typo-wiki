@@ -20,6 +20,8 @@ build: copy-wiki-source
 	@echo "Building the Hugo site..."
 	hugo --minify --buildFuture
 
-push: 
-	git submodule update --remote --merge
+pull:
+	git pull && git submodule update --init --recursive --remote --merge
+
+push: pull 
 	git add . && git commit -m "Update wiki" && git push
