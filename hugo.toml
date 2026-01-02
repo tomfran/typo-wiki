@@ -80,7 +80,7 @@ url = "/typo-wiki/users"
 # Syntax highligth on code blocks
 [markup]
 [markup.highlight]
-style = 'bw'
+noClasses = false
 
 [markup.goldmark]
 [markup.goldmark.renderer]
